@@ -79,6 +79,8 @@ DB_DATABASE=event_booking
 DB_USERNAME=root
 DB_PASSWORD=secret
 
+CACHE_DRIVER=file
+
 ```
 ### Optional: configure mail driver for Gmail:
 ```
