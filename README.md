@@ -100,7 +100,8 @@ php artisan key:generate
 ```
 ### 5. Run migrations and seeders
 ```
-php artisan migrate:fresh --seed
+php artisan migrate
+php artisan db:seed
 ```
 
 ### This will create all tables and seed:
