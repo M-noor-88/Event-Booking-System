@@ -104,6 +104,18 @@ php artisan migrate
 php artisan db:seed
 ```
 
+### Run the Server and Queue 
+
+```
+php artisan serve
+```
+### For Queue ⛏️ Sending Notification via Email 
+
+![5967387257545544525](https://github.com/user-attachments/assets/a0ea50b8-6dea-4eaf-8c8d-ac22d242f4ce)
+
+```
+php artisan queue:work
+```
 ### This will create all tables and seed:
 
 #### Users
@@ -127,6 +139,7 @@ DB_DATABASE=:memory:
 ```
 #### Run tests
 ```
+php artisan migrate
 php artisan test
 ```
 
